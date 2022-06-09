@@ -10,9 +10,16 @@ import SwiftUI
 struct LandmarkList: View {
     var body: some View {
 //        List(landmarks , id: \.id){ landmark in without Identifiable
-        List(landmarks){ landmark in // with identifable
-            LandmarkRow(landmark: landmark ).padding(.vertical)
-        }
+        NavigationView{
+            List(landmarks){ landmark in // with identifable
+            NavigationLink{
+                MapScreen(coordinates: landmark.locationCordinates, image: landmark.image, name: landmark.name, title: landmark.park, description: landmark.description)
+            }label: {
+                    LandmarkRow(landmark: landmark ).padding(.vertical)
+                }
+            }
+        }.navigationTitle("Landmarks")
+
     }
 }
 

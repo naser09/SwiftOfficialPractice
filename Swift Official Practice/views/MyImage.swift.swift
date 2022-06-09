@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct MyImage_swift: View {
+    var image:Image
     var body: some View {
-        Image("test")
+        image
             .frame(width: 150, height: 150, alignment: .center).padding()
             .clipShape(Circle())
             .overlay{
@@ -20,6 +21,6 @@ struct MyImage_swift: View {
 
 struct MyImage_swift_Previews: PreviewProvider {
     static var previews: some View {
-        MyImage_swift()
+        MyImage_swift(image: Image("test"))
     }
 }
