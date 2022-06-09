@@ -11,6 +11,10 @@
 		567A269428521E33006EA344 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A269328521E33006EA344 /* ContentView.swift */; };
 		567A269628521E34006EA344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A269528521E34006EA344 /* Assets.xcassets */; };
 		567A269928521E34006EA344 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A269828521E34006EA344 /* Preview Assets.xcassets */; };
+		567A26A128522339006EA344 /* MyImage.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A26A028522339006EA344 /* MyImage.swift.swift */; };
+		567A26A528522E99006EA344 /* BadgeTest.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A26A428522E99006EA344 /* BadgeTest.swift.swift */; };
+		567A26A728522F54006EA344 /* mMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A26A628522F54006EA344 /* mMapView.swift */; };
+		567A26A92852339B006EA344 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A26A82852339B006EA344 /* MapScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		567A269328521E33006EA344 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		567A269528521E34006EA344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		567A269828521E34006EA344 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		567A26A028522339006EA344 /* MyImage.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift.swift; sourceTree = "<group>"; };
+		567A26A428522E99006EA344 /* BadgeTest.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeTest.swift.swift; sourceTree = "<group>"; };
+		567A26A628522F54006EA344 /* mMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mMapView.swift; sourceTree = "<group>"; };
+		567A26A82852339B006EA344 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 		567A269028521E33006EA344 /* Swift Official Practice */ = {
 			isa = PBXGroup;
 			children = (
+				567A269F2852231B006EA344 /* views */,
 				567A269128521E33006EA344 /* Swift_Official_PracticeApp.swift */,
 				567A269328521E33006EA344 /* ContentView.swift */,
 				567A269528521E34006EA344 /* Assets.xcassets */,
@@ -65,6 +74,17 @@
 				567A269828521E34006EA344 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		567A269F2852231B006EA344 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				567A26A028522339006EA344 /* MyImage.swift.swift */,
+				567A26A428522E99006EA344 /* BadgeTest.swift.swift */,
+				567A26A628522F54006EA344 /* mMapView.swift */,
+				567A26A82852339B006EA344 /* MapScreen.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567A26A92852339B006EA344 /* MapScreen.swift in Sources */,
 				567A269428521E33006EA344 /* ContentView.swift in Sources */,
+				567A26A128522339006EA344 /* MyImage.swift.swift in Sources */,
+				567A26A728522F54006EA344 /* mMapView.swift in Sources */,
+				567A26A528522E99006EA344 /* BadgeTest.swift.swift in Sources */,
 				567A269228521E33006EA344 /* Swift_Official_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
