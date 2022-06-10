@@ -13,6 +13,7 @@ struct MapScreen: View {
     var name:String
     var title:String
     var description:String
+    @Binding var isSet:Bool
     var body: some View {
         ScrollView{
             mMapView(coordinates: coordinates)
@@ -27,6 +28,10 @@ struct MapScreen: View {
                 Text(title)
                     .font(.title3)
                     .offset( y: -100)
+                Spacer()
+                    FavButton(isSet: $isSet)
+                    .offset( y: -100)
+                    .padding()
             }
             VStack{
                     Text(description)
@@ -45,7 +50,7 @@ struct MapScreen_Previews: PreviewProvider {
             image: Image("test") ,name: "Tirtle Rock" ,
                   title: "very nice place to visit" ,
         description:
-                    "Finally, move the subheadline font modifier from each Text view to the HStack containing them, and apply the secondary color to the subheadline text.When you apply a modifier to a layout view like a stack, SwiftUI applies the modifier to all the elements contained in the group."
+                "Finally, move the subheadline font modifier from each Text view to the HStack containing them, and apply the secondary color to the subheadline text.When you apply a modifier to a layout view like a stack, SwiftUI applies the modifier to all the elements contained in the group." ,isSet: .constant(true)
         )
     }
 }

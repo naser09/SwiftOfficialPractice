@@ -14,6 +14,7 @@ struct Landmark:Hashable,Codable ,Identifiable { //Identifiable make it detectab
     var name:String
     var park:String
     var description:String
+    var isFavorite:Bool
     
     private var imageName:String
     var image:Image{
@@ -31,7 +32,7 @@ struct Landmark:Hashable,Codable ,Identifiable { //Identifiable make it detectab
     
 
     static func getTempData() -> Landmark{
-        return Landmark(id: 0, name: "default", park: "no park", description: "no description",imageName: "turtleRock" ,coordinates: Coordinates(
+        return Landmark(id: 0, name: "default", park: "no park", description: "no description",isFavorite: true,imageName: "turtleRock" ,coordinates: Coordinates(
             latitude: 10.045646, longitude: 45.45646))
     }
 }
