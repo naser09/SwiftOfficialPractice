@@ -23,7 +23,8 @@ struct LandmarkList: View {
             List{ // with identifable
                 Toggle(isOn: $shoFavOnly, label: {
                         Text("Favorite Only")})
-                    ForEach(FilteredLandsmarks){landmark in
+                    ForEach(FilteredLandsmarks){ landmark in
+                        
                         NavigationLink{
                             MapScreen(coordinates: landmark.locationCordinates, image: landmark.image, name: landmark.name, title: landmark.park, description: landmark.description ,
                                       isSet:$modelData.landmarks[FilteredLandsmarks.firstIndex(where:{$0.id == landmark.id} )!].isFavorite
