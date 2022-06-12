@@ -17,6 +17,7 @@
 		566F70DD2852676800246C92 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F70DC2852676800246C92 /* ModelData.swift */; };
 		566F70E028526B7600246C92 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F70DF28526B7600246C92 /* LandmarkRow.swift */; };
 		566F70E228526DE400246C92 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F70E128526DE400246C92 /* LandmarkList.swift */; };
+		567547B62855ED7500E9ECB3 /* CurvePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567547B52855ED7500E9ECB3 /* CurvePractice.swift */; };
 		567A269228521E33006EA344 /* Swift_Official_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A269128521E33006EA344 /* Swift_Official_PracticeApp.swift */; };
 		567A269428521E33006EA344 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A269328521E33006EA344 /* ContentView.swift */; };
 		567A269628521E34006EA344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A269528521E34006EA344 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		566F70DC2852676800246C92 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		566F70DF28526B7600246C92 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		566F70E128526DE400246C92 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		567547B52855ED7500E9ECB3 /* CurvePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvePractice.swift; sourceTree = "<group>"; };
 		567A268E28521E33006EA344 /* Swift Official Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Official Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		567A269128521E33006EA344 /* Swift_Official_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Official_PracticeApp.swift; sourceTree = "<group>"; };
 		567A269328521E33006EA344 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				56533E7A2854B18300FDABF1 /* pathPractice.swift */,
 				56533E7F2854FAD800FDABF1 /* BadgeSymbol.swift */,
 				56533E812855044400FDABF1 /* Badge.swift */,
+				567547B52855ED7500E9ECB3 /* CurvePractice.swift */,
 			);
 			path = drawing;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				567A26A92852339B006EA344 /* MapScreen.swift in Sources */,
 				567A269428521E33006EA344 /* ContentView.swift in Sources */,
 				56533E802854FAD800FDABF1 /* BadgeSymbol.swift in Sources */,
+				567547B62855ED7500E9ECB3 /* CurvePractice.swift in Sources */,
 				567A26A128522339006EA344 /* MyImage.swift.swift in Sources */,
 				567A26A728522F54006EA344 /* mMapView.swift in Sources */,
 				566F70DD2852676800246C92 /* ModelData.swift in Sources */,
